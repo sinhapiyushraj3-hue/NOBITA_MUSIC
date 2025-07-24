@@ -6,7 +6,7 @@ from pyrogram.types import InlineKeyboardButton
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from VILLAIN_MUSIC import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
+from NOBITA_MUSIC import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
 from NOBITA_MUSIC.core.call import NOBITA
 from NOBITA_MUSIC.utils import seconds_to_min, time_to_seconds
 from NOBITA_MUSIC.utils.channelplay import get_channeplayCB
