@@ -33,7 +33,7 @@ async def start(_, msg):
           InlineKeyboardButton("𝚴 𝐎 𝐁 𝚰 𝐓 𝚲", url="https://t.me/ll_NOBITA_DEFAULTERS_ll"),
           ],
                [
-                InlineKeyboardButton("˹ɴᴏʙɪᴛᴀ ꭙ ꜱᴜᴘᴘᴏʀᴛ˼", url=f"https://t.me/NOBITA_MUSIC_SUPPORT"),
+                InlineKeyboardButton("˹ɴᴏʙɪᴛᴀ ꭙ ꜱᴜᴘᴘᴏʀᴛ˼", url=f"https://t.me/NOB1TA_SUPPORT"),
 ],
 [
 InlineKeyboardButton("𝗠ᴀɪɴ 𝗕ᴏᴛ", url=f"https://t.me/NOBITA_MUSIC_ROBOT"),
