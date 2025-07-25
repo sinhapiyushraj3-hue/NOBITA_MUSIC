@@ -79,7 +79,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 text="𝖮ᴡɴᴇʀ 🥀", url="https://t.me/ll_NOBITA_DEFAULTERS_ll",
             ),
             InlineKeyboardButton(
-                text="𝖲ᴜᴘᴘᴏʀᴛ 🥀", url="https://t.me/+wPjAlUcObehiZDM1",
+                text="𝖲ᴜᴘᴘᴏʀᴛ 🥀", url="https://t.me/+WLTHgUAvkYVmNTg9",
             )
         ],
          [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
