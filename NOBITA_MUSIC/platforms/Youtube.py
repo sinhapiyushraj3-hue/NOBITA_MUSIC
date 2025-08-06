@@ -9,7 +9,7 @@ from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
 from youtubesearchpython.__future__ import VideosSearch
 
-from NOBITA_MUSIC.utils.database import is_on_off
+from _MUSIC.utils.database import is_on_off
 from NOBITA_MUSIC.utils.formatters import time_to_seconds
 
 
@@ -308,3 +308,4 @@ class YouTubeAPI:
                 "outtmpl": "downloads/%(id)s.%(ext)s",
             }
             return await loop.run_in_executor(None, download_action, opts), True
+
