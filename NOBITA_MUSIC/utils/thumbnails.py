@@ -71,8 +71,8 @@ async def get_thumb(videoid):
         enhancer = ImageEnhance.Brightness(background)
         background = enhancer.enhance(0.5)
         draw = ImageDraw.Draw(background)
-        arial = ImageFont.truetype("Clonify/assets/font2.ttf", 30)
-        font = ImageFont.truetype("Clonify/assets/font.ttf", 30)
+        arial = ImageFont.truetype("NOBITA_MUSIC/assets/font2.ttf", 30)
+        font = ImageFont.truetype("NOBITA_MUSIC/assets/font.ttf", 30)
         text_size = draw.textsize("TEAM NOBITA BOTS    ", font=font)
         draw.text((1280 - text_size[0] - 10, 10), "TEAM NOBITA BOTS    ", fill="yellow", font=font)
         draw.text(
