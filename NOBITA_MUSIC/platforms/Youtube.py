@@ -20,9 +20,9 @@ from concurrent.futures import ThreadPoolExecutor
 from youtubesearchpython.__future__ import VideosSearch, CustomSearch
 
 # Import your existing modules
-from Clonify import LOGGER
-from Clonify.utils.database import is_on_off
-from Clonify.utils.formatters import time_to_seconds
+from NOBITA_MUSIC import LOGGER
+from NOBITA_MUSIC.utils.database import is_on_off
+from NOBITA_MUSIC.utils.formatters import time_to_seconds
 
 BASE_API_URL = "http://zyro.zyronetworks.shop"
 BASE_API_KEY = "IcDU1vq1WSMo5XfpatPmsMNanB5eRkM1"
@@ -770,3 +770,4 @@ class YouTubeAPI:
             downloaded_file = await loop.run_in_executor(None, lambda:audio_dl(vid_id))
         
         return downloaded_file, direct
+
