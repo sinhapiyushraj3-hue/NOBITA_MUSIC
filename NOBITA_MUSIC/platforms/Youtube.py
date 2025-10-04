@@ -23,9 +23,8 @@ from youtubesearchpython.__future__ import VideosSearch, CustomSearch
 from NOBITA_MUSIC import LOGGER
 from NOBITA_MUSIC.utils.database import is_on_off
 from NOBITA_MUSIC.utils.formatters import time_to_seconds
+from config import BASE_API_URL, BASE_API_KEY
 
-BASE_API_URL = "http://zyro.zyronetworks.shop"
-BASE_API_KEY = "IcDU1vq1WSMo5XfpatPmsMNanB5eRkM1"
 
 DOWNLOAD_DIR = Path("downloads")
 DOWNLOAD_DIR.mkdir(exist_ok=True)
@@ -770,4 +769,6 @@ class YouTubeAPI:
             downloaded_file = await loop.run_in_executor(None, lambda:audio_dl(vid_id))
         
         return downloaded_file, direct
+
+        
 
